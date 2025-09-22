@@ -28,7 +28,7 @@ namespace _04GestionDeAnimales_Angel
 
         public void buscarAnimal(string nombre)
         {
-            bool encontrado = false;  // Booleano para verificar si se encontró el animal
+            bool encontrado = false;  // Booleano para verificar si se ha encontrado a el animal.
 
             foreach (Animal animal in listaAnimales)
             {
