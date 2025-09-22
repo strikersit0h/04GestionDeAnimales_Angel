@@ -8,11 +8,8 @@ namespace _04GestionDeAnimales_Angel
 {
     internal class Perro: Animal
     {
-        public string nombre { get; set; }
-        public string raza { get; set; }
-        public int edad { get; set; }
-
-        public Perro(string nombre, String raza, int edad) 
+   
+        public Perro(string nombre, String raza, int edad): base(nombre, raza, edad)
         {
             this.nombre = nombre;
             this.raza = raza;
