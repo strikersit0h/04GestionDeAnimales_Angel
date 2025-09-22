@@ -8,11 +8,7 @@ namespace _04GestionDeAnimales_Angel
 {
     internal class Gato : Animal
     {
-        public string nombre { get; set; }
-        public string raza { get; set; }
-        public int edad { get; set; }
-
-        public Gato(string nombre, String raza, int edad) // Constructor
+        public Gato(string nombre, String raza, int edad) : base(nombre, raza, edad) // Constructor
         {
             this.nombre = nombre;
             this.raza = raza;
